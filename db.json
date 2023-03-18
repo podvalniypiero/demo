@@ -1,14 +1,48 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "novelist": [
+    {
+      "id": 1,
+      "name": "Лермонтов Михаил Юрьевич",
+      "data": "1814—1841",
+      "imageURL":"/img/novelist/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "data": "1893—1930",
+      "imageURL":"/img/novelist/2.jpg"
+    },
+    
+    
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "poet": [
+    {
+      "id": 1,
+      "name": "Маяковский Владимир Владимирович",
+      "data": "1893—1930",
+      "imageURL":"/img/novelist/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Бродский Иосиф Александрович",
+      "data": "1940—1996",
+      "imageURL":"/img/poet/2.jpg"
+    },
+
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "favorites": {
+    []
+  },
+  "vocabulary": [
+    {
+      "id": 1,
+      "name": "Литературный жанр",
+      "definition": " "
+    },
+    {
+      "id": 2,
+      "name": "Лирический герой",
+      "definition": " "
+    }
+  ]
 }
